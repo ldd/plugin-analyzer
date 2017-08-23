@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "name": "plugin-analyzer",
+  "description": "RPG Maker MV plugin that analyzes your plugins",
+  "version": "0.1.0",
+  "main": "pluginAnalyzer.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/eslint/bin/eslint.js ."
+  },
+  "keywords": [
+    "RPG",
+    "Maker",
+    "Proxy"
+  ],
+  "author": "ldd",
+  "license": "MIT"
+}
